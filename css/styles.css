@@ -85,6 +85,15 @@ nav span:hover {
 #inicio {
   text-align: center;
   padding: 2rem 1rem;
+  /* Fondo visible en todos los tamaños */
+  background: #2b2b2b;
+  border-radius: 12px;
+  border: 1px solid var(--color-accent);
+  box-shadow: var(--shadow-accent);
+  margin: 1rem 0;
+  min-height: 220px;
+  background-size: cover;
+  background-position: center;
 }
 
 #inicio h2 {
@@ -259,7 +268,6 @@ img {
 @media (min-width: 900px) {
 
   #inicio {
-    background: #2b2b2b;
     border: 2px solid var(--color-accent);
     border-radius: 20px;
     box-shadow: var(--shadow-accent);
